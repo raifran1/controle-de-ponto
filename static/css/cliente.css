@@ -1,0 +1,98 @@
+
+#form{
+
+  padding: auto;
+  background-color: white;
+  width: 30%;
+  min-width: 250px;
+  height: auto;
+  min-height: 10px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 4px;
+  padding: 40px;
+  transition: 1s;
+}
+
+#topo{
+
+  margin-bottom: 30px;
+  border-radius: 4px;
+  text-align: center;
+  transition: 1s;
+  display: hidden;
+
+}
+
+#consultar_atendimento {
+  border-radius: 4px;
+  transition: 1s;
+  display: none;
+}
+
+#myForm {
+  border-radius: 4px;
+  transition: 1s;
+  display: none;
+}
+
+#box_rating,
+#div_assunto,
+#div_colaborador,
+#id_avaliacao,
+#div_meio_contato,
+#div_tipo_atendimento,
+#div_empresa,
+#div_descricao,
+#submit_atendimento{
+  display:none;
+  margin-top: 10px;
+}
+
+img{
+  margin: 0 auto;
+  width: 70%;
+}
+
+button.botoes{
+  outline: 0;
+  background: #466CD9;
+  color: #fff!important;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none!important;
+  height: 55px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline;
+  transition: 1s;
+}
+
+input[type=text]{
+  width:100%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+#rodape{
+  display: none;
+  margin-top: 30px;
+}
+
+.fa{
+  color: #ead445;
+  cursor: pointer;
+}
